@@ -1,0 +1,80 @@
+
+
+html {
+  background-color: #9EFF9E;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 3rem;
+
+  border: #000 .4rem solid;
+  border-radius: 1rem;
+  padding: 0;
+}
+
+
+
+
+#mainHeading {
+  width: 50%;
+}
+
+#header {
+  display: flex;
+  text-align: center;
+  border-radius: .5rem;
+  background-color: #FAED27;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+}
+
+
+
+#calculateBtn {
+  margin-top: 2rem;
+  width: 80%;
+  display: block;
+  height: 2.8rem;
+  border-radius: 1.9rem;
+  font-size: .8rem;
+  margin-bottom: 2rem;
+
+  background-color: #FFFACD;
+}
+
+
+
+#tipDiv {
+  display: none;
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+
+input[type="text"] {
+  width: 80%;
+  border-radius: 1.3rem;
+  height: 1rem;
+}
+
+
+
+select {
+  width: 80%;
+  height: 1.8rem;
+}
+
+[for="guests"] {
+  display: flex;
+}
+
+
+#guests {
+  margin-right: .4rem;
+}

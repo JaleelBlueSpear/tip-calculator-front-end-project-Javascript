@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Whats the tip</title>
+
+
+    <link rel="stylesheet" href="../css/mainStyle.css">
+  </head>
+  <body>
+    <main>
+      <div id="content"> <!-- flex box  -->
+        <div id="header">
+        <h1 id="mainHeading">Calculate the Tip</h1>
+        </div>
+        <p>How much was the bill ?</p>
+        <label for="currentBill"> <!-- flexbox for Input -->
+          $
+          <input type="text" id="currentBill" placeholder="Bill Amount">
+        </label>
+        <p>How was your service?</p>
+        <select id="service">
+          <option>-- Choose An option --</option>
+          <option>Great</option>
+          <option>good</option>
+          <option>Ok</option>
+          <option>bad</option>
+          <option>Very Bad</option>
+        </select>
+        <p>How many guest[s] are sharing the bill?</p>
+        <label for="guests">  <!-- inner flexBox -->
+          <input id="guests" placeholder="Number of People" type="text">
+          guest{s}
+        </label>
+        <button id="calculateBtn">Calculate!</button>
+        <div id="tipDiv"></div>
+      </div>
+    </main>
+    <script src="../Javascript/App.js"></script>
+  </body>
+</html>
